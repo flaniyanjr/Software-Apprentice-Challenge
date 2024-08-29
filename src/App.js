@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import AdList from './AdList';
+import Header from './Header';
 
 function App() {
   const [adData, setAdData]= useState({})
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className= 'app-container'>
+      <Header />
       <AdList adData= {adData}/>
     </div>
   );

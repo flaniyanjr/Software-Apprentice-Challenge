@@ -66,6 +66,7 @@ code {
   box-shadow: 0 0 4px white ;
   border-color: black;
   margin-top: 15px;
+  background-color: #ffffff;
 }
 
 .container {
@@ -102,4 +103,18 @@ code {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   cursor: pointer
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  background-color: darkred;
+  width: 100%;
+  height: 50px;
+}
+
+.title {
+  font-size: 30px;
+  color: #ffffff;
 }
